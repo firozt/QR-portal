@@ -1,0 +1,14 @@
+.cell {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #F1F2F7;
+    transition: all .2s ease-in-out;
+    padding: 15px;
+    margin: 0;
+}
+
+.cell:hover {
+    transform: translateY(-3px);
+    background-color: #eef0f9;
+}

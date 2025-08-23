@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+    font-family: var(--font-poppins), sans-serif;
+}
+
+h1, h2, h3, p{
+    font-family: var(--font-poppins), sans-serif;
+}
+
+hr {
+    margin: 0;
+}
+
+.text-input {
+  appearance: none;      /* removes native styling */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  font: inherit;          /* inherit font family/size */
+  color: inherit;         /* inherit text color */
+}
+
+.text-input:focus {
+  outline: none;
+  box-shadow: none;
+}

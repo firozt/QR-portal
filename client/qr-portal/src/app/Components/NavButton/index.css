@@ -1,0 +1,35 @@
+.nav-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: left;
+    margin: 0;
+}
+
+.nav-button:hover {
+    background-color: #707fdd2c;
+    color: #273240a9;
+    transition: all .25s ease;
+    filter: brightness(.85);
+}
+
+
+.nav-button p {
+    color: #273240a9;
+    user-select: none;
+    font-weight: 300;
+
+}
+
+
+.selected {
+    background-color: #707fdd2c;
+}
+
+.selected p {
+    color: #5A6ACF;
+}

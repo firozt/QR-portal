@@ -1,15 +1,21 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './index.css'
 import Cell from '../Cell/Cell'
 import NavButton from '../NavButton/NavButton'
 import Button from '../Button/Button'
 import TextInput from '../TextInput/TextInput'
+import axios from 'axios'
 
+const API_URL: string = process.env.API_URL ?? ''
 
 const DashboardContent = () => {
     const [selectedQr, setSelectedQr] = useState<number>(0);
+
+    useEffect(() => {
+        // axios.get(`${API_URL}/qrcodes/${}`)
+    }, [])
 
   return (
     <div className='dashboard-content'>
